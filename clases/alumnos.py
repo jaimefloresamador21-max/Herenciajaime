@@ -1,6 +1,6 @@
-from clases.personas import persona
+from clases.personas import Persona
 
-class Alumno(persona):
+class Alumno(Persona):
     def __innit__(self):
         super().__init__()
         self.cuenta = ""

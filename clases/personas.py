@@ -1,4 +1,4 @@
-class persona(object):
+class Persona(object):
     
     def __innit__(self):
         self.nombre = ""

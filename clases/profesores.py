@@ -1,6 +1,6 @@
-from clases.personas import persona
+from clases.personas import Persona
 
-class Profesor(persona):
+class Profesor(Persona):
     
     def __innit__(self):
         super().__init__()
